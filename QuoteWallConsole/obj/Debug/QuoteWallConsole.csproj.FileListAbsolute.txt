@@ -1,0 +1,14 @@
+C:\Users\bobblygoomp\source\repos\QuoteWallConsole\QuoteWallConsole\bin\Debug\QuoteWallConsole.exe.config
+C:\Users\bobblygoomp\source\repos\QuoteWallConsole\QuoteWallConsole\bin\Debug\QuoteWallConsole.exe
+C:\Users\bobblygoomp\source\repos\QuoteWallConsole\QuoteWallConsole\bin\Debug\QuoteWallConsole.pdb
+C:\Users\bobblygoomp\source\repos\QuoteWallConsole\QuoteWallConsole\bin\Debug\EntityFramework.dll
+C:\Users\bobblygoomp\source\repos\QuoteWallConsole\QuoteWallConsole\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\bobblygoomp\source\repos\QuoteWallConsole\QuoteWallConsole\bin\Debug\EntityFramework.xml
+C:\Users\bobblygoomp\source\repos\QuoteWallConsole\QuoteWallConsole\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\bobblygoomp\source\repos\QuoteWallConsole\QuoteWallConsole\obj\Debug\QuoteWallConsole.csprojAssemblyReference.cache
+C:\Users\bobblygoomp\source\repos\QuoteWallConsole\QuoteWallConsole\obj\Debug\QuoteWallConsole.csproj.CoreCompileInputs.cache
+C:\Users\bobblygoomp\source\repos\QuoteWallConsole\QuoteWallConsole\obj\Debug\QuoteWallConsole.csproj.CopyComplete
+C:\Users\bobblygoomp\source\repos\QuoteWallConsole\QuoteWallConsole\obj\Debug\QuoteWallConsole.exe
+C:\Users\bobblygoomp\source\repos\QuoteWallConsole\QuoteWallConsole\obj\Debug\QuoteWallConsole.pdb
+C:\Users\bobblygoomp\source\repos\QuoteWallConsole\QuoteWallConsole\obj\Debug\QuoteWallConsole.Migrations.CreateQuote.resources
+C:\Users\bobblygoomp\source\repos\QuoteWallConsole\QuoteWallConsole\obj\Debug\QuoteWallConsole.csproj.GenerateResource.cache
