@@ -7,8 +7,7 @@ namespace QuoteWall.Models
 {
     public class Quote
     {
-        public int id { get; set; }
-        public string name { get; set; }
-        public string text { get; set; }
+        public int Id { get; set; }
+        public string Name { get; set; }
     }
 }
