@@ -5,6 +5,10 @@ VisualStudioVersion = 15.0.27703.2026
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QuoteWallConsole", "QuoteWallConsole\QuoteWallConsole.csproj", "{D4B540CE-E19D-4222-A244-3796E03E673F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QuoteWall", "QuoteWall\QuoteWall.csproj", "{1C4DF79E-4DDD-4F92-B322-CFCC81517160}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QuoteWall.Tests", "QuoteWall.Tests\QuoteWall.Tests.csproj", "{43860220-82A7-4546-87A8-1AE5410E3A24}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,14 @@ Global
 		{D4B540CE-E19D-4222-A244-3796E03E673F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D4B540CE-E19D-4222-A244-3796E03E673F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D4B540CE-E19D-4222-A244-3796E03E673F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1C4DF79E-4DDD-4F92-B322-CFCC81517160}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1C4DF79E-4DDD-4F92-B322-CFCC81517160}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1C4DF79E-4DDD-4F92-B322-CFCC81517160}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1C4DF79E-4DDD-4F92-B322-CFCC81517160}.Release|Any CPU.Build.0 = Release|Any CPU
+		{43860220-82A7-4546-87A8-1AE5410E3A24}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{43860220-82A7-4546-87A8-1AE5410E3A24}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{43860220-82A7-4546-87A8-1AE5410E3A24}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{43860220-82A7-4546-87A8-1AE5410E3A24}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
