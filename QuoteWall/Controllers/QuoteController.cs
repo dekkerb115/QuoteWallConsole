@@ -10,11 +10,11 @@ namespace QuoteWall.Controllers
 {
     public class QuoteController : Controller
     {
+        public WallDbContext context = new WallDbContext();
         // GET: Quote
         public ActionResult Random()
         {
             //Quote quote = new Quote() {Name = "Hello World" };
-            WallDbContext context = new WallDbContext();
             var query = from x in context.Quotes
                         where x.Id == 1
                         select x;
@@ -25,6 +25,26 @@ namespace QuoteWall.Controllers
             context.SaveChanges();
             */
             //return View(quote);
+        }
+        public ActionResult AddQuote()
+        {
+            return View();
+        }
+        [HttpPost]
+        public ActionResult AddQuote(Quote quote)
+        {
+            if (ModelState.IsValid)
+            {
+                context.Quotes.Add(quote);
+                context.SaveChanges();
+
+                return RedirectToAction("Random");
+            }
+            else
+            {
+                return View(quote);
+            }
+  
         }
     }
 }

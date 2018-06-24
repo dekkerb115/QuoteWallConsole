@@ -104,3 +104,7 @@ C:\Users\bobblygoomp\source\repos\QuoteWallConsole\QuoteWall\bin\QuoteWallConsol
 C:\Users\bobblygoomp\source\repos\QuoteWallConsole\QuoteWall\bin\QuoteWallConsole.exe.config
 C:\Users\bobblygoomp\source\repos\QuoteWallConsole\QuoteWall\bin\EntityFramework.xml
 C:\Users\bobblygoomp\source\repos\QuoteWallConsole\QuoteWall\bin\EntityFramework.SqlServer.xml
+C:\Users\bobblygoomp\source\repos\QuoteWallConsole\QuoteWall\obj\Debug\QuoteWall.Migrations.Reset.resources
+C:\Users\bobblygoomp\source\repos\QuoteWallConsole\QuoteWall\obj\Debug\QuoteWall.csproj.GenerateResource.cache
+C:\Users\bobblygoomp\source\repos\QuoteWallConsole\QuoteWall\obj\Debug\QuoteWall.Migrations.Reset2.resources
+C:\Users\bobblygoomp\source\repos\QuoteWallConsole\QuoteWall\obj\Debug\QuoteWall.Migrations.AddPerson.resources

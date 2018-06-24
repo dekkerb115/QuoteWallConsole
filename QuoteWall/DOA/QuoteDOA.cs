@@ -10,6 +10,7 @@ namespace QuoteWall.DOA
     public class WallDbContext : DbContext
     {
         public DbSet<Quote> Quotes { get; set; }
+        public DbSet<Person> People { get; set; }
     }
     public class QuoteDOA
     {

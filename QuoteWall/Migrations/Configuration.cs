@@ -9,7 +9,7 @@ namespace QuoteWall.Migrations
     {
         public Configuration()
         {
-            AutomaticMigrationsEnabled = false;
+            AutomaticMigrationsEnabled = true;
         }
 
         protected override void Seed(QuoteWall.DOA.WallDbContext context)

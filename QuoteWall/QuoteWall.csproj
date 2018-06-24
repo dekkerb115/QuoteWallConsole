@@ -196,7 +196,20 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201806242048314_Reset.cs" />
+    <Compile Include="Migrations\201806242048314_Reset.Designer.cs">
+      <DependentUpon>201806242048314_Reset.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201806242058372_Reset2.cs" />
+    <Compile Include="Migrations\201806242058372_Reset2.Designer.cs">
+      <DependentUpon>201806242058372_Reset2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201806242100495_AddPerson.cs" />
+    <Compile Include="Migrations\201806242100495_AddPerson.Designer.cs">
+      <DependentUpon>201806242100495_AddPerson.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
+    <Compile Include="Models\Person.cs" />
     <Compile Include="Models\Quote.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -254,6 +267,7 @@
     <Content Include="Views\Shared\Error.cshtml" />
     <Content Include="Views\Shared\_Layout.cshtml" />
     <Content Include="Views\Quote\Random.cshtml" />
+    <Content Include="Views\Quote\AddQuote.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
@@ -292,6 +306,17 @@
       <Project>{d4b540ce-e19d-4222-a244-3796e03e673f}</Project>
       <Name>QuoteWallConsole</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Migrations\201806242048314_Reset.resx">
+      <DependentUpon>201806242048314_Reset.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201806242058372_Reset2.resx">
+      <DependentUpon>201806242058372_Reset2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201806242100495_AddPerson.resx">
+      <DependentUpon>201806242100495_AddPerson.cs</DependentUpon>
+    </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
