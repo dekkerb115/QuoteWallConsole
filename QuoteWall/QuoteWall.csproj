@@ -208,6 +208,14 @@
     <Compile Include="Migrations\201806242100495_AddPerson.Designer.cs">
       <DependentUpon>201806242100495_AddPerson.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201807020056473_AddNameFieldsAndDateField.cs" />
+    <Compile Include="Migrations\201807020056473_AddNameFieldsAndDateField.Designer.cs">
+      <DependentUpon>201807020056473_AddNameFieldsAndDateField.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201807020112503_UpdateQuoteNameField.cs" />
+    <Compile Include="Migrations\201807020112503_UpdateQuoteNameField.Designer.cs">
+      <DependentUpon>201807020112503_UpdateQuoteNameField.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\Person.cs" />
     <Compile Include="Models\Quote.cs" />
@@ -316,6 +324,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201806242100495_AddPerson.resx">
       <DependentUpon>201806242100495_AddPerson.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201807020056473_AddNameFieldsAndDateField.resx">
+      <DependentUpon>201807020056473_AddNameFieldsAndDateField.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201807020112503_UpdateQuoteNameField.resx">
+      <DependentUpon>201807020112503_UpdateQuoteNameField.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>

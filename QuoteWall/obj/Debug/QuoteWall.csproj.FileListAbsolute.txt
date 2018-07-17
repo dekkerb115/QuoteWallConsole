@@ -108,3 +108,5 @@ C:\Users\bobblygoomp\source\repos\QuoteWallConsole\QuoteWall\obj\Debug\QuoteWall
 C:\Users\bobblygoomp\source\repos\QuoteWallConsole\QuoteWall\obj\Debug\QuoteWall.csproj.GenerateResource.cache
 C:\Users\bobblygoomp\source\repos\QuoteWallConsole\QuoteWall\obj\Debug\QuoteWall.Migrations.Reset2.resources
 C:\Users\bobblygoomp\source\repos\QuoteWallConsole\QuoteWall\obj\Debug\QuoteWall.Migrations.AddPerson.resources
+C:\Users\bobblygoomp\source\repos\QuoteWallConsole\QuoteWall\obj\Debug\QuoteWall.Migrations.AddNameFieldsAndDateField.resources
+C:\Users\bobblygoomp\source\repos\QuoteWallConsole\QuoteWall\obj\Debug\QuoteWall.Migrations.UpdateQuoteNameField.resources

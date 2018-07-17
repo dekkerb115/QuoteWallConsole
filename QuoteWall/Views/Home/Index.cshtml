@@ -1,1 +1,30 @@
-﻿<h2>Play Wonderwall</h2>
+﻿@model IEnumerable<QuoteWall.Models.Quote>
+@{
+    /**/
+
+    ViewBag.Title = "Random";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+@foreach (var quote in Model)
+{
+    <div>
+        @quote.Id
+        <hr />
+    </div>
+    <div class="form-group">
+        <div class="col-md-offset-2 col-md-10">
+            <form action="/Quote/Random/@quote.Id" method="get">
+                <input type="submit" value="View" class="btn btn-default" />
+            </form>
+        </div>
+    </div>
+}
+
+<div class="form-group">
+    <div class="col-md-offset-2 col-md-10">
+        <form action="/Quote/AddQuote" method="get">
+            <input type="submit" value="Create" class="btn btn-default" />
+        </form>
+    </div>
+</div>

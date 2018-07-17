@@ -12,12 +12,13 @@ namespace QuoteWall.Controllers
     {
         public WallDbContext context = new WallDbContext();
         // GET: Quote
-        public ActionResult Random()
+        public ActionResult Random(int Id)
         {
             //Quote quote = new Quote() {Name = "Hello World" };
             var query = from x in context.Quotes
-                        where x.Id == 1
+                        where x.Id == Id
                         select x;
+            
             Quote quote = query.FirstOrDefault<Quote>();
             return View(quote);
             /*
@@ -35,10 +36,12 @@ namespace QuoteWall.Controllers
         {
             if (ModelState.IsValid)
             {
+                quote.DateCreated = DateTime.Now;
                 context.Quotes.Add(quote);
                 context.SaveChanges();
 
-                return RedirectToAction("Random");
+                string Action = "Random/" + quote.Id;
+                return RedirectToAction(Action);
             }
             else
             {
